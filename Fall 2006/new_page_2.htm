@@ -1,0 +1,64 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>New Page 2</title>
+<base target="rbottom">
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+<script language="JavaScript" fptype="dynamicanimation">
+<!--
+function dynAnimation() {}
+function clickSwapImg() {}
+//-->
+</script>
+<script language="JavaScript1.2" fptype="dynamicanimation" src="../animate.js">
+</script>
+</head>
+
+<body bgcolor="#462300" background="Arts-Calendar-background.jpg" onload="FP_preloadImgs(/*url*/'file:///C:/Documents%20and%20Settings/Pattis/My%20Documents/My%20Web%20Sites/hiartmagazine.com/Fall%202006/button2D.gif',/*url*/'file:///C:/Documents%20and%20Settings/Pattis/My%20Documents/My%20Web%20Sites/hiartmagazine.com/Fall%202006/button2E.gif')" language="Javascript1.2" link="#FFFFFF" vlink="#CABEAE" alink="#A79378">
+
+<p align="left">
+<img height="69" src="file:///C:/Documents%20and%20Settings/Pattis/My%20Documents/My%20Web%20Sites/hiartmagazine.com/Fall%202006/HIart-banner-small.gif" width="144" border="0"><br>
+<a onmouseover="var img=document['fpAnimswapImgFP2'];img.imgRolln=img.src;img.src=img.lowsrc?img.lowsrc:img.getAttribute?img.getAttribute('lowsrc'):img.src;" onmouseout="document['fpAnimswapImgFP2'].src=document['fpAnimswapImgFP2'].imgRolln" target="_parent" href="Table%20of%20Contents.htm">
+<img id="fpAnimswapImgFP2" height="36" src="file:///C:/Documents%20and%20Settings/Pattis/My%20Documents/My%20Web%20Sites/hiartmagazine.com/Fall%202006/table-of-con-button.gif" width="144" lowsrc="file:///C:/Documents%20and%20Settings/Pattis/My%20Documents/My%20Web%20Sites/hiartmagazine.com/Fall%202006/table-of-con-button-over.gif" border="0" name="fpAnimswapImgFP2" dynamicanimation="fpAnimswapImgFP2" startL="10" imgRolln="file:///C:/Documents%20and%20Settings/Pattis/My%20Documents/My%20Web%20Sites/hiartmagazine.com/Fall%202006/table-of-con-button.gif"></a>
+<br>
+<img onmouseup="FP_swapImg(0,0,/*id*/'img2',/*url*/'file:///C:/Documents%20and%20Settings/Pattis/My%20Documents/My%20Web%20Sites/hiartmagazine.com/Fall%202006/button2D.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img2',/*url*/'file:///C:/Documents%20and%20Settings/Pattis/My%20Documents/My%20Web%20Sites/hiartmagazine.com/Fall%202006/button2E.gif')" id="img2" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'file:///C:/Documents%20and%20Settings/Pattis/My%20Documents/My%20Web%20Sites/hiartmagazine.com/Fall%202006/button2D.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'file:///C:/Documents%20and%20Settings/Pattis/My%20Documents/My%20Web%20Sites/hiartmagazine.com/Fall%202006/button2C.gif')" height="17" alt="download printable pdf" src="file:///C:/Documents%20and%20Settings/Pattis/My%20Documents/My%20Web%20Sites/hiartmagazine.com/Fall%202006/button2C.gif" width="144" border="0" fp-title="download printable pdf" fp-style="fp-btn: Metal Rectangle 5; fp-font-size: 9; fp-font-color-hover: #B59475; fp-font-color-press: #FFFFFF; fp-transparent: 1; fp-proportional: 0; fp-orig: 0" $src="file:///C:/Documents%20and%20Settings/Pattis/My%20Documents/My%20Web%20Sites/hiartmagazine.com/Fall%202006/button2D.gif"></p>
+<p align="left">&nbsp;</p>
+<p align="left">
+<a onmouseover="var img=document['fpAnimswapImgFP3'];img.imgRolln=img.src;img.src=img.lowsrc?img.lowsrc:img.getAttribute?img.getAttribute('lowsrc'):img.src;" onmouseout="document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].imgRolln" href="javascript:void(0)">
+<img border="0" src="HAC-button.gif" width="288" height="36" id="fpAnimswapImgFP3" name="fpAnimswapImgFP3" dynamicanimation="fpAnimswapImgFP3" lowsrc="HAC-button-over.gif"></a><br>
+<a onmouseover="var img=document['fpAnimswapImgFP4'];img.imgRolln=img.src;img.src=img.lowsrc?img.lowsrc:img.getAttribute?img.getAttribute('lowsrc'):img.src;" onmouseout="document['fpAnimswapImgFP4'].src=document['fpAnimswapImgFP4'].imgRolln" href="Contemporary%20calendar.htm">
+<img border="0" src="Contemporary-button.gif" width="288" height="36" id="fpAnimswapImgFP4" name="fpAnimswapImgFP4" dynamicanimation="fpAnimswapImgFP4" lowsrc="Contemporary-button-over.gif"></a><br>
+<a onmouseover="var img=document['fpAnimswapImgFP5'];img.imgRolln=img.src;img.src=img.lowsrc?img.lowsrc:img.getAttribute?img.getAttribute('lowsrc'):img.src;" onmouseout="document['fpAnimswapImgFP5'].src=document['fpAnimswapImgFP5'].imgRolln" href="javascript:void(0)">
+<img border="0" src="MAC-button.gif" width="288" height="36" id="fpAnimswapImgFP5" name="fpAnimswapImgFP5" dynamicanimation="fpAnimswapImgFP5" lowsrc="MAC-button-over.gif"></a><br>
+<a onmouseover="var img=document['fpAnimswapImgFP6'];img.imgRolln=img.src;img.src=img.lowsrc?img.lowsrc:img.getAttribute?img.getAttribute('lowsrc'):img.src;" onmouseout="document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].imgRolln" href="javascript:void(0)">
+<img border="0" src="VAC-button.gif" width="288" height="36" id="fpAnimswapImgFP6" name="fpAnimswapImgFP6" dynamicanimation="fpAnimswapImgFP6" lowsrc="VAC-button-over.gif"></a></p>
+<p align="left">&nbsp;</p>
+<p align="left">&nbsp;</p>
+
+</body>
+
+</html>

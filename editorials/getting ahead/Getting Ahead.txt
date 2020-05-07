@@ -1,0 +1,281 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Getting Ahead&nbsp; There</title>
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body bgcolor="#77A4FF" topmargin="0" leftmargin="0" onload="FP_preloadImgs(/*url*/'../../2%20Spring%202007/Darrell%20Orwig/button2D.jpg', /*url*/'../../2%20Spring%202007/Darrell%20Orwig/button2C.jpg', /*url*/'buttonA2.jpg', /*url*/'buttonA3.jpg')">
+
+<table cellpadding="0" cellspacing="0" width="659" height="304">
+	<!-- MSTableType="layout" -->
+	<tr>
+		<td valign="top" rowspan="2" width="144">
+	<a href="../../table-of-contents.htm">
+	<img border="0" src="../../3%20fall%202007/a%20romance%20with%20art/HI-Art-mag-logo-small.jpg" width="144" height="66"></a><br>
+		<a href="../../table-of-contents.htm">
+		<img border="0" id="img3" src="../../2%20Spring%202007/Darrell%20Orwig/button2B.jpg" height="18" width="142" alt="return to table of contents" fp-style="fp-btn: Embossed Rectangle 5; fp-font: Arial; fp-font-style: Bold; fp-font-size: 8; fp-proportional: 0; fp-orig: 0" fp-title="return to table of contents" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'../../2%20Spring%202007/Darrell%20Orwig/button2C.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'../../2%20Spring%202007/Darrell%20Orwig/button2B.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img3',/*url*/'../../2%20Spring%202007/Darrell%20Orwig/button2D.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img3',/*url*/'../../2%20Spring%202007/Darrell%20Orwig/button2C.jpg')"></a></td>
+		<td valign="top" height="16">
+		<p align="center"><b><font face="Arial" size="2">&nbsp;editorial</font></b></td>
+	</tr>
+	<tr>
+		<td height="288" width="515" valign="top">
+		<img border="0" src="Getting-Ahead-banner.jpg" width="648" height="324"></td>
+	</tr>
+</table>
+<table cellpadding="0" cellspacing="0" width="800" height="100">
+	<!-- MSTableType="layout" -->
+	<tr>
+		<td valign="top" height="100" width="800">
+		<table cellpadding="0" cellspacing="0" border="0" width="800" height="100">
+			<!-- MSCellFormattingTableID="2" -->
+			<tr>
+				<td height="100" width="800">
+				<!-- MSCellFormattingType="content" -->
+				<table border="0" width="100%" height="100%" cellpadding="10" cellspacing="0">
+					<tr>
+						<td width="100%" height="100%" valign="top"><font size="4">There's a joke 
+		about a fisherman who catches a beautiful mermaid. Offered three wishes 
+		he first attends to his future by asking for wealth and good looks. 
+		Having covered the basics he spends his final wish on a more short term 
+		goal designed to satisfy the lust of a lonely fisherman – he asks his 
+		attractive benefactress for 'a little head'. Predictably, the butt of 
+		the joke ends his days as a micro cephalic.</font></td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+<table cellpadding="0" cellspacing="0" width="800" height="440">
+	<!-- MSTableType="layout" -->
+	<tr>
+		<td valign="middle" width="576">
+		<table cellpadding="0" cellspacing="0" border="0" width="576" height="440">
+			<!-- MSCellFormattingTableID="1" -->
+			<tr>
+				<td height="440" width="576">
+				<!-- MSCellFormattingType="content" -->
+				<img border="0" src="fisherman-mermaid.jpg" width="576" height="396"></td>
+			</tr>
+		</table>
+		</td>
+		<td valign="middle" height="440" width="224">
+		<table cellpadding="0" cellspacing="0" border="0" width="224" height="440">
+			<!-- MSCellFormattingTableID="3" -->
+			<tr>
+				<td height="440" width="224">
+				<!-- MSCellFormattingType="content" -->
+				<table border="0" width="100%" height="100%" cellpadding="10" cellspacing="0">
+					<tr>
+						<td width="100%" height="100%" valign="middle">
+						<font size="4">The all-too-human conflict between long term vision and short term
+motivation had less predicable consequences for head size for the
+inhabitants of Easter Island. When Westerners first stumbled upon the<br>
+isolated desert isle, they wondered how such a tiny unsophisticated
+population could have created such phenomenal monuments to their
+deities. Some of the huge stone heads weighed as much as 35 tons! How<br>
+were they moved? What awe inspiring technology had these islanders
+developed? Surely we had much to learn from them.</font></td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+<table cellpadding="0" cellspacing="0" width="800" height="279">
+	<!-- MSTableType="layout" -->
+	<tr>
+		<td valign="top" height="279" width="800">
+		<table cellpadding="0" cellspacing="0" border="0" width="800" height="279">
+			<!-- MSCellFormattingTableID="4" -->
+			<tr>
+				<td height="279" width="800">
+				<!-- MSCellFormattingType="content" -->
+				<table border="0" width="100%" height="100%" cellpadding="10" cellspacing="0">
+					<tr>
+						<td width="100%" height="100%" valign="top">
+						<font size="4">Over the following decades anthropologists unfolded the unlikely
+mystery: A thousand years earlier, when Polynesians first discovered
+Rapa Nui, the island was a verdant forested paradise. There were large
+trees, (including the largest known palms in the world) many species
+of edible plants, and a variety of unique grazing birds. Apparently
+the birds were tasty, because the new inhabitants quickly ate them
+into extinction. Their demise is attested to in bone piles around camp
+sites.</font><p><font size="4">The mystery of the statues is more intriguing. As the new community
+thrived in this plentiful environment, they began carving modest
+versions of the now-famous Easter Island Heads to honor their deities,
+and celebrate their good fortune. Symbols of success are important to
+us humans, whether in the form a hood ornament on a Mercedes, or a big
+head in the front yard, so competition for the most ostentatious
+statue grew in leaps and bounds. Ingeniously, the islanders moved
+their enormous edifices by rolling the statues from quarries to home
+sites on the trunks of freshly cut trees, then systematically propped
+them into an upright position.</font></p></td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+<table cellpadding="0" cellspacing="0" width="801" height="286">
+	<!-- MSTableType="layout" -->
+	<tr>
+		<td width="320" valign="top" height="320">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" height="100%">
+			<!-- MSCellFormattingTableID="5" -->
+			<tr>
+				<td height="100%" width="100%">
+				<!-- MSCellFormattingType="content" -->
+				<table border="0" width="100%" height="100%" cellpadding="10" cellspacing="0">
+					<tr>
+						<td width="100%" height="100%" valign="top"><font size="4">When Western observers first saw the statues, most were toppled on
+their sides. Many of the largest were still en route from the quarries
+in which they'd been carved. Apparently, on some particular day, an
+Easter Islander went to the forest to find a few more logs to roll a
+statue, and discovered that there were no more trees. Hard to imagine
+them not noticing the gradual disappearance – but maybe they did
+notice. Perhaps they figured if one of them didn't take that last
+tree, then another would. Either way, short term motivation won out
+over long term vision and soon there were no trees left.</font></td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+		</table>
+		</td>
+		<td valign="middle" height="286" width="481">
+		<img border="0" src="rapa-nui-mansion.jpg" width="545" height="360"></td>
+	</tr>
+</table>
+						<table cellpadding="0" cellspacing="0" width="800" height="320">
+							<!-- MSTableType="layout" -->
+							<tr>
+								<td valign="top" height="380" width="800">
+								<table cellpadding="0" cellspacing="0" border="0" width="100%" height="100%">
+									<!-- MSCellFormattingTableID="6" -->
+									<tr>
+										<td height="100%" width="100%">
+										<!-- MSCellFormattingType="content" -->
+										<table border="0" width="100%" height="100%" cellpadding="10" cellspacing="0">
+											<tr>
+												<td width="100%" height="100%" valign="top">
+												<font size="4">As trees ran out, several things happened in rapid succession: All
+animals and plants sheltered by the forest were rendered extinct, so
+the food supply was cut in half; without the foliage, topsoil eroded,
+reducing cultivated crops to a minimum; there was no wood left to make
+canoes, so effective fishing to support the large population became
+impossible; and finally, of course, no one could leave. Population
+exceeded food supply.<br>
+<br>
+Fortunately human ingenuity and dietary flexibility solved several
+problems in one ingenious move. As competition for wealth had
+degenerated into competition for food, the Easter Islanders had begun
+to eat, first seagulls, then rats, and now finally, each other.
+Quickly, warring tribes reduced the population to the sustainable few
+hundred inhabitants discovered on that peaceful desert island
+surrounded by toppled monuments to their vanished glory.</font><br>
+<br>
+						<font size="4">In the incessant diatribe surrounding today's oil crisis and global
+warming, there is little mention of population growth. All of the
+global problems we face today are multiplied by population numbers. If
+you have ten children who drive hybrids your descendants will use more<br>
+energy than if you have one who drives a Hummer. Disease, resource
+shortages, war and pollution are all functions of a population
+explosion that tripled the Earth's occupancy from 2 billion to 6
+billion in a generation.</font></td>
+											</tr>
+										</table>
+										</td>
+									</tr>
+								</table>
+								</td>
+							</tr>
+</table>
+<table cellpadding="0" cellspacing="0" width="800" height="99">
+	<!-- MSTableType="layout" -->
+	<tr>
+		<td width="800" height="99" valign="top">
+		<img border="0" src="map-edit.jpg" width="780" height="430" align="right"></td>
+	</tr>
+</table>
+<table cellpadding="0" cellspacing="0" width="800" height="240">
+	<!-- MSTableType="layout" -->
+	<tr>
+		<td valign="top" height="240" width="800">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" height="100%">
+			<!-- MSCellFormattingTableID="7" -->
+			<tr>
+				<td height="100%" width="100%">
+				<!-- MSCellFormattingType="content" -->
+				<table border="0" width="100%" height="100%" cellpadding="10" cellspacing="0">
+					<tr>
+						<td width="100%" height="100%" valign="top">
+						<font size="4">We speak relentlessly of recycling and of finding renewable energy
+sources, but with geometric population growth, no resource
+conservation systems will ever be adequate, no new technologies will
+suffice. Why is discussion of population limits so unspeakable? Is it
+the command of our Old Testament God who sent us out into the world to
+'Go forth and multiply'? By 2050 Earth's population will likely hit 9
+billion. Do you think He'll be satisfied?<br>
+						<br>
+We're infatuated with the idea of controlling our future. We plan and
+prognosticate, we gaze at stars for guidance. For insurance, we pray
+to God. But like the Easter Islander who wanted a big head, or our
+proverbial fisherman who just wanted a little head, our short term
+motives often undo our best laid long term plans. When it comes to
+getting ahead, long term visions too often falls victim to short term
+motivations.</font></td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+<table cellpadding="0" cellspacing="0" width="800" height="80">
+	<!-- MSTableType="layout" -->
+	<tr>
+		<td width="800" height="80" valign="middle">
+		<p align="center"><a href="Getting%20Ahead.htm">
+		<img border="0" id="img6" src="buttonA1.jpg" height="18" width="142" alt="return to top of page" onmouseover="FP_swapImg(1,0,/*id*/'img6',/*url*/'buttonA2.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img6',/*url*/'buttonA1.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img6',/*url*/'buttonA3.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img6',/*url*/'buttonA2.jpg')" fp-style="fp-btn: Embossed Rectangle 5; fp-font: Arial; fp-font-style: Bold; fp-font-size: 8; fp-proportional: 0" fp-title="return to top of page"></a>&nbsp;
+		<a href="../../table-of-contents.htm">
+		<img border="0" id="img5" src="../../2%20Spring%202007/Darrell%20Orwig/button2B.jpg" height="18" width="142" alt="return to table of contents" fp-style="fp-btn: Embossed Rectangle 5; fp-font: Arial; fp-font-style: Bold; fp-font-size: 8; fp-proportional: 0; fp-orig: 0" fp-title="return to table of contents" onmouseover="FP_swapImg(1,0,/*id*/'img5',/*url*/'../../2%20Spring%202007/Darrell%20Orwig/button2C.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img5',/*url*/'../../2%20Spring%202007/Darrell%20Orwig/button2B.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img5',/*url*/'../../2%20Spring%202007/Darrell%20Orwig/button2D.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img5',/*url*/'../../2%20Spring%202007/Darrell%20Orwig/button2C.jpg')"></a></td>
+	</tr>
+</table>
+
+</body>
+
+</html>

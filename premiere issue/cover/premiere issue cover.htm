@@ -1,0 +1,91 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>HI Art Magazine&nbsp; ART ON THE EDGE</title>
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body text="#FFFFFF" bgcolor="#000000" topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" marginwidth="0" marginheight="0" onload="FP_preloadImgs(/*url*/'button4.gif', /*url*/'button5.gif')">
+
+<table cellpadding="10" cellspacing="0" background="idspace-mag-winter-07-cover.jpg" width="876" height="565" id="table1">
+	<!-- MSTableType="layout" -->
+	<tr>
+		<td valign="top" colspan="2">
+		<p align="center">
+		<font color="#000001" face="Arial" size="1">HI Art Magazine</font><br>
+		<img border="0" src="HI-Art-mag-logo-web.jpg" width="252" height="116" alt="HI Art Magazine logo"><br>
+		<font face="Arial" color="#808080" size="4">ART ON THE EDGE IN HAWAII</font></td>
+		<td height="170">&nbsp;</td>
+	</tr>
+	<tr>
+		<td valign="top"><span style="font-weight: 700">
+		<font size="2" face="Arial">
+		<font color="#FFCC66">PREMIERE ISSUE</font> <br>
+		WINTER 2007</font></span></td>
+		<td valign="top">
+		<p align="left">&nbsp;&nbsp;&nbsp;
+		<a href="../table%20of%20contents/table%20of%20contents.htm">
+		<img border="0" id="img1" src="button9.gif" height="30" width="90" alt="enter" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button4.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button9.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button5.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button4.gif')" fp-style="fp-btn: Embossed Rectangle 9; fp-font: Arial; fp-font-style: Bold; fp-font-size: 20; fp-font-color-normal: #FF0000; fp-font-color-hover: #FFFFFF; fp-font-color-press: #FF0000; fp-transparent: 1; fp-proportional: 0" fp-title="enter"></a></td>
+		<td height="54">&nbsp;</td>
+		</tr>
+	<tr>
+		<td valign="top" rowspan="2" colspan="2"><b><font face="Arial" color="#808080">
+		features:</font></b><font size="4" face="Arial"><br>
+		Darrell Orwig<br>
+		Shingo Honda<br>
+		Hawaii Artist's Cooperative<br>
+		Patti Millington<br>
+		Michael Shewmaker<br>
+		Arty Primates<br>
+		Wailehua Gray<br>
+		Beethoven's Nightmare</font><p><b>
+		<font face="Arial" color="#808080">Review:</font></b><font size="4" face="Arial"><br>
+		Ron Smith at MACC<br>
+		<br>
+		<img border="0" src="K.gif" width="29" height="29" alt="link to Kid space page">idspace</font></td>
+		<td height="172">&nbsp;</td>
+		</tr>
+	<tr>
+		<td valign="bottom" height="148">&nbsp;<p>
+		<font face="Arial" color="#FF6600" style="font-size: 16pt">Darrell Orwig at idspace</font><font face="Arial" size="5" color="#FF6600"><br>
+		</font><font color="#FF6600" style="font-size: 22pt" face="Arial">Good Roads and 
+		Bad Dreams</font><font face="Arial" size="6"><br>
+		</font><font face="Arial" size="4" color="#9D9CA3">by Duane Preble</font></p>
+		</td>
+	</tr>
+	<tr>
+		<td width="126"></td>
+		<td width="108"></td>
+		<td height="21" width="582"></td>
+	</tr>
+</table>
+
+<p>&nbsp;</p>
+
+</body>
+
+</html>

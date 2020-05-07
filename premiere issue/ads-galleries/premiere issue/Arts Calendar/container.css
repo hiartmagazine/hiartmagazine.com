@@ -1,0 +1,51 @@
+/* 
+================================
+ Palace Container Styles
+================================
+*/
+
+.containermaster_gray, .containermaster_white, .containermaster_transparent
+{
+    width: 100%;
+    border-right: green 3px double;
+    border-top: green 3px double;
+    border-left: green 3px double;
+    border-bottom: green 3px double;
+}
+.containermaster_gray
+{
+    background-color: #565656;
+}
+.containermaster_white
+{
+    background-color: #ffffff;
+}
+.containermaster_transparent
+{
+    background-color: Transparent;
+}
+.containerrow_normal_title
+{
+    background-color: #ddaa00;
+    border-bottom: green 3px double;
+    padding: 3px 4px;
+    text-align: left;
+    font: bold 115% Verdana, Tahoma, Arial, Helvetica, Sans-Serif;
+    color: #000000;
+}
+.containerrow2_white
+{
+    background-color: #ffffff;
+}
+.containerrow2_gray
+{
+    background-color: #565656;
+}
+.containerrow2_transparent
+{
+    background-color: Transparent;
+}
+
+
+
+

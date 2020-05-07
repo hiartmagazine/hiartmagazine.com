@@ -1,0 +1,83 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Are you between the ages of 0 an</title>
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body text="#808000" bgcolor="#99CCFF" onload="FP_preloadImgs(/*url*/'button2C.gif', /*url*/'button2D.gif')" link="#808000" vlink="#800080" alink="#FF0000">
+
+<div align="center">
+	<div align="left">
+		<table cellpadding="0" cellspacing="0" id="table1" width="108" height="68">
+			<!-- MSTableType="layout" -->
+			<tr>
+				<td width="108" height="68" valign="top">
+		<a href="Kidspace.htm">
+		<img border="0" src="../Darrell%20Orwig/HI-Art-mag-logo-small.jpg" width="144" height="66"></a><br>
+				<a href="Kidspace.htm">
+				<img border="0" id="img4" src="button2B.gif" height="20" width="144" alt="return to Kidspace" onmouseover="FP_swapImg(1,0,/*id*/'img4',/*url*/'button2C.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img4',/*url*/'button2B.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img4',/*url*/'button2D.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img4',/*url*/'button2C.gif')" fp-style="fp-btn: Metal Rectangle 5; fp-font: Arial; fp-font-style: Bold; fp-font-size: 8; fp-font-color-normal: #800080; fp-font-color-hover: #FF00FF; fp-font-color-press: #FFFF00; fp-transparent: 1; fp-proportional: 0; fp-orig: 0" fp-title="return to Kidspace"></a></td>
+			</tr>
+		</table>
+	</div>
+	<table cellpadding="0" cellspacing="0" bgcolor="#CCFF99" width="635" height="343" border="3" bordercolor="#008080" id="table2">
+		<!-- MSTableType="layout" -->
+		<tr>
+			<td height="343" width="635" bordercolor="#008080">
+			<table cellpadding="0" cellspacing="0" border="0" width="100%" height="100%" id="table3">
+				<!-- MSCellFormattingTableID="1" -->
+				<tr>
+					<td height="100%" width="100%">
+					<!-- MSCellFormattingType="content" -->
+					<table border="0" width="100%" height="100%" cellpadding="25" cellspacing="0" id="table4">
+						<tr>
+							<td width="100%" height="100%" valign="middle">
+							<p align="center"><b>
+							<font face="Arial" size="6" color="#9900CC">Are you 
+							between the ages of 0 and 21 and want to see your 
+							pictures on the &quot;Fr</font><font face="Arial" size="6" color="#FF0000">id</font><font face="Arial" size="6" color="#9900CC">ge&quot;?</font></b></p>
+							<p align="center"><b>
+							<font face="Arial" size="6" color="#6600FF">e-mail a 
+							jpeg image of your art, along with your name, age, 
+							and city to:</font></b></p>
+
+<p align="center"><font face="Arial" size="5">
+<a href="mailto:info@hiartmagazine.com">info@hiartmagazine.com</a></font></p>
+							<p align="center">&nbsp;</td>
+						</tr>
+					</table>
+					</td>
+				</tr>
+			</table>
+			</td>
+		</tr>
+	</table>
+</div>
+
+</body>
+
+</html>

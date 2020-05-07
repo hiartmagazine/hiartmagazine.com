@@ -1,0 +1,52 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Jim Rhodes</title>
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body topmargin="0" leftmargin="0" text="#FFFFFF" bgcolor="#000000" link="#FFFFFF" vlink="#FFFFFF" alink="#D2BB75" onload="FP_preloadImgs(/*url*/'button29.gif', /*url*/'button2A.gif', /*url*/'button2C.gif', /*url*/'button2D.gif')">
+
+<p align="center">
+<map name="FPMap0">
+<area href="../8-toc/8-table%20of%20contents.htm" shape="rect" coords="1, 0, 146, 91">
+</map>
+<img border="0" src="jim-banner.jpg" width="1025" height="1771" usemap="#FPMap0"></p>
+
+<p align="center"><font color="#D2BB75" face="Arial" size="4">
+<a href="../../idspace/Current%20Exhibit/current%20exhibit.htm">click here</a> 
+to see more works by Jim Rhodes in the idspace section of HI Art Magazine</font></p>
+<p align="center"><a href="jim_rhodes.htm">
+<img border="0" id="img1" src="button28.gif" height="20" width="144" alt="return to top of page" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button29.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button28.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button2A.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button29.gif')" fp-style="fp-btn: Embossed Rectangle 5; fp-font-size: 8; fp-font-color-hover: #FFFFFF; fp-transparent: 1; fp-proportional: 0" fp-title="return to top of page"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="../8-toc/8-table%20of%20contents.htm">
+<img border="0" id="img2" src="button2B.gif" height="20" width="144" alt="return to table of contents" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'button2C.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'button2B.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img2',/*url*/'button2D.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img2',/*url*/'button2C.gif')" fp-style="fp-btn: Embossed Rectangle 5; fp-font-size: 8; fp-transparent: 1; fp-proportional: 0" fp-title="return to table of contents"></a><br>
+<br>
+&nbsp;</p>
+
+</body>
+
+</html>

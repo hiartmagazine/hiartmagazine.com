@@ -1,0 +1,87 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>New Page 1</title>
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body bgcolor="#FFFFFF" background="parchment-bkgd.jpg" leftmargin="0" onload="FP_preloadImgs(/*url*/'button3E.gif', /*url*/'button3D.gif', /*url*/'button42.gif', /*url*/'button41.gif', /*url*/'button46.gif', /*url*/'button45.gif')">
+
+<table cellpadding="0" cellspacing="0" id="table1" width="820" height="1008">
+	<!-- MSTableType="layout" -->
+	<tr>
+		<td>&nbsp;</td>
+		<td width="121">&nbsp;</td>
+		<td valign="top" height="504" width="562">
+		<img border="0" src="two-girls.jpg" width="562" height="504"></td>
+	</tr>
+	<tr>
+		<td width="137">&nbsp;</td>
+		<td valign="top" colspan="2" height="504"><br>
+		<img border="0" src="girls-and-pagoda.jpg" width="411" height="504"></td>
+	</tr>
+</table>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<table cellpadding="0" cellspacing="0" width="820">
+	<!-- MSTableType="layout" -->
+	<tr>
+		<td height="258" valign="top">
+		<img border="0" src="monk-with-radio.jpg" width="511" height="504" align="right"></td>
+	</tr>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><br>
+<br>
+&nbsp;</p>
+<table cellpadding="0" cellspacing="0" width="855" height="432">
+	<!-- MSTableType="layout" -->
+	<tr>
+		<td valign="top" height="432" width="855">
+		<img border="0" src="nuns-weeding.jpg" width="735" height="432" align="right"></td>
+	</tr>
+</table>
+<p>&nbsp;</p>
+<table cellpadding="0" cellspacing="0" width="858" height="65" id="table2">
+	<!-- MSTableType="layout" -->
+	<tr>
+	<td width="83">&nbsp;</td>
+		<td width="775" valign="top" height="65">
+		<p align="center">
+		<img border="0" src="enlarge-text.gif" width="243" height="44"><br>
+		<a href="cyclone.htm">
+		<img border="0" id="img8" src="button3C.gif" height="18" width="50" alt="&lt; back" onmouseover="FP_swapImg(1,0,/*id*/'img8',/*url*/'button3D.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img8',/*url*/'button3C.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img8',/*url*/'button3E.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img8',/*url*/'button3D.gif')" fp-style="fp-btn: Embossed Rectangle 9; fp-font-color-hover: #FFFFFF; fp-transparent: 1; fp-proportional: 0; fp-orig: 0" fp-title="&lt; back"></a>&nbsp;<a href="../toc/6-table%20of%20contents.htm"><img border="0" id="img9" src="button40.gif" height="18" width="50" alt="exit" onmouseover="FP_swapImg(1,0,/*id*/'img9',/*url*/'button41.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img9',/*url*/'button40.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img9',/*url*/'button42.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img9',/*url*/'button41.gif')" fp-style="fp-btn: Embossed Rectangle 9; fp-font-color-hover: #FFFFFF; fp-transparent: 1; fp-proportional: 0; fp-orig: 0" fp-title="exit"></a>&nbsp;<a href="clinic%202.htm"><img border="0" id="img10" src="button44.gif" height="18" width="50" alt="next &gt;" onmouseover="FP_swapImg(1,0,/*id*/'img10',/*url*/'button45.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img10',/*url*/'button44.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img10',/*url*/'button46.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img10',/*url*/'button45.gif')" fp-style="fp-btn: Embossed Rectangle 9; fp-font-color-hover: #FFFFFF; fp-transparent: 1; fp-proportional: 0; fp-orig: 0" fp-title="next &gt;"></a></td>
+		</tr>
+</table>
+
+</body>
+
+</html>

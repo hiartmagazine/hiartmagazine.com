@@ -1,0 +1,87 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Virtual Gallery</title>
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body topmargin="0" leftmargin="0" link="#000000" vlink="#808080" alink="#FF0000" onload="FP_preloadImgs(/*url*/'buttonC.gif',/*url*/'buttonB.gif',/*url*/'button24.gif',/*url*/'button23.gif')">
+
+<p style="margin-top: 0px; margin-bottom: 0px" align="center"><b>
+<font face="Arial">Virtual Gallery - Monika Mann</font></b></p>
+<table height="504" cellSpacing="0" cellPadding="0" width="873" id="table1">
+	<!-- MSTableType="layout" -->
+	<tr>
+		<td vAlign="bottom" width="180">
+		<p align="center"><b><font face="Arial" size="2">JUST KEEP ON WALKING<br>
+		mixed media on paper<br>
+		59&quot;h x 82.5&quot;w<br>
+		<br>
+		<a href="Monika%20Mann.htm">
+		<img border="0" id="img1" src="buttonA.gif" height="18" width="100" alt="back to gallery" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'buttonB.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'buttonA.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'buttonC.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'buttonB.gif')" fp-style="fp-btn: Metal Rectangle 5; fp-font-color-hover: #FF0000; fp-transparent: 1; fp-proportional: 0; fp-orig: 0" fp-title="back to gallery"></a></font></b><br>
+&nbsp;</td>
+		<td vAlign="top" width="693" height="504">
+		<img border="0" src="6-web.jpg" width="637" height="504"></td>
+	</tr>
+</table>
+<p align="center">&nbsp;</p>
+<table cellpadding="0" cellspacing="0" id="table2" width="788" height="36">
+	<!-- MSTableType="layout" -->
+	<tr>
+		<td valign="middle" width="323">
+		<p align="right"><font face="Arial">
+		<a target="_blank" href="Monika%20Mann%20price%20list.htm">
+		<img border="0" id="img3" src="button22.gif" height="20" width="65" alt="price list" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'button23.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'button22.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img3',/*url*/'button24.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img3',/*url*/'button23.gif')" fp-style="fp-btn: Embossed Rectangle 5; fp-transparent: 1; fp-proportional: 0; fp-orig: 0" fp-title="price list"></a></font></td>
+		<td valign="middle" height="36" width="465">
+		<p align="center"><font face="Arial">For more information contact HI Art at <a href="mailto:info@hiartmagazine.com">
+info@hiartmagazine.com</a></font></td>
+	</tr>
+</table>
+<p align="center">&nbsp;</p>
+
+<div align="center">
+	<table cellpadding="0" cellspacing="0" width="631">
+		<!-- MSTableType="layout" -->
+		<tr>
+			<td height="86" valign="top">
+			<p align="center">
+			<img border="0" src="6-detail-1.jpg" width="673" height="504"><br>
+			<b><font face="Arial" size="2">Detail 1</font></b></p>
+			<p align="center">
+			<img border="0" src="6-detail-2.jpg" width="673" height="504"><br>
+			<b><font face="Arial" size="2">Detail 2</font></b></p>
+			<p align="center">
+			<img border="0" src="6-detail-3.jpg" width="673" height="504"><br>
+			<b><font face="Arial" size="2">Detail 3</font></b></td>
+		</tr>
+	</table>
+</div>
+
+</body>
+
+</html>

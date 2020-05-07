@@ -1,0 +1,83 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>New Page 1</title>
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body text="#FFFFFF" bgcolor="#808080" onload="FP_preloadImgs(/*url*/'button3.gif', /*url*/'button4.gif', /*url*/'../Tobias%20Brill/buttonB.gif', /*url*/'../Tobias%20Brill/buttonA.gif')">
+
+<table cellpadding="0" cellspacing="0" id="table1" width="645" height="216">
+	<!-- MSTableType="layout" -->
+	<tr>
+		<td valign="top" height="86">
+		<p style="margin-top: 0; margin-bottom: 0">
+		<a target="_parent" href="../Spring%2007%20TOC/Spring%2007%20TOC.htm">
+		<img border="0" src="../../premiere%20issue/Darrell%20Orwig/HI-Art-mag-logo-small.jpg" width="144" height="66" alt="HI Art logo - link to table of contents"></a><br>
+		<a target="_parent" href="../Spring%2007%20TOC/Spring%2007%20TOC.htm">
+		<img border="0" id="img6" src="../Tobias%20Brill/button9.gif" height="20" width="142" alt="return to table of contents" fp-style="fp-btn: Metal Rectangle 5; fp-font: Arial; fp-font-style: Bold; fp-font-size: 8; fp-font-color-hover: #FF0000; fp-font-color-press: #FFFFFF; fp-transparent: 1; fp-proportional: 0; fp-orig: 0" fp-title="return to table of contents" onmouseover="FP_swapImg(1,0,/*id*/'img6',/*url*/'../Tobias%20Brill/buttonA.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img6',/*url*/'../Tobias%20Brill/button9.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img6',/*url*/'../Tobias%20Brill/buttonB.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img6',/*url*/'../Tobias%20Brill/buttonA.gif')"></a></td>
+		<td valign="top" rowspan="2" width="501">
+		<p align="center" style="margin-top: 0; margin-bottom: 0">
+		<img border="0" src="Over-the-Edge-banner.gif" width="299" height="216" align="right"></td>
+	</tr>
+	<tr>
+		<td height="130" width="144">
+		<p style="margin-top: 0; margin-bottom: 0">&nbsp;</td>
+	</tr>
+</table>
+<p style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
+<div align="center">
+	<table cellpadding="10" cellspacing="0" width="270" height="256" bgcolor="#000000">
+		<!-- MSTableType="layout" -->
+		<tr>
+			<td width="150">
+			<p style="margin-top: 0; margin-bottom: 0">
+			<img border="0" src="Tobias-icon.jpg" width="162" height="288"></td>
+			<td height="256" width="120" valign="top">
+			<table cellpadding="0" cellspacing="0" border="0" width="100%" height="100%">
+				<!-- MSCellFormattingTableID="1" -->
+				<tr>
+					<td height="100%" width="100%">
+					<!-- MSCellFormattingType="content" -->
+					<table border="0" width="100%" height="100%" cellpadding="10" cellspacing="0">
+						<tr>
+							<td width="100%" height="100%" valign="bottom">
+							<a href="../Tobias%20Brill/Tobias%20Brill.htm">
+							<img border="0" id="img10" src="button2.gif" height="30" width="100" alt="ENTER" onmouseover="FP_swapImg(1,0,/*id*/'img10',/*url*/'button3.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img10',/*url*/'button2.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img10',/*url*/'button4.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img10',/*url*/'button3.gif')" fp-style="fp-btn: Embossed Rectangle 7; fp-font-style: Bold; fp-font-size: 18; fp-font-color-normal: #FF0000; fp-font-color-hover: #FFFFFF; fp-font-color-press: #0000FF; fp-transparent: 1; fp-proportional: 0" fp-title="ENTER"></a></td>
+						</tr>
+					</table>
+					</td>
+				</tr>
+			</table>
+			</td>
+		</tr>
+	</table>
+</div>
+
+</body>
+
+</html>

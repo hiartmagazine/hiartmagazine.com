@@ -1,0 +1,69 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>New Page 2</title>
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+<script language="JavaScript" fptype="dynamicanimation">
+<!--
+function dynAnimation() {}
+function clickSwapImg() {}
+//-->
+</script>
+<script language="JavaScript1.2" fptype="dynamicanimation" src="animate.js">
+</script>
+</head>
+
+<body background="Ala-Kahakai-bkgd.jpg" topmargin="0" leftmargin="0" onload="FP_preloadImgs(/*url*/'Fall%202006/button2E.gif', /*url*/'Fall%202006/button2D.gif'); dynAnimation()" language="Javascript1.2">
+
+<table cellpadding="0" cellspacing="0" width="987" height="577">
+	<!-- MSTableType="layout" -->
+	<tr>
+		<td valign="top" width="403">
+			<img border="0" src="Fall%202006/HIart-banner-small.gif" width="144" height="69"><br>
+			<a onmouseover="var img=document['fpAnimswapImgFP2'];img.imgRolln=img.src;img.src=img.lowsrc?img.lowsrc:img.getAttribute?img.getAttribute('lowsrc'):img.src;" onmouseout="document['fpAnimswapImgFP2'].src=document['fpAnimswapImgFP2'].imgRolln" href="Fall%202006/Table%20of%20Contents.htm">
+			<img border="0" src="Fall%202006/table-of-con-button.gif" width="144" height="36" id="fpAnimswapImgFP2" name="fpAnimswapImgFP2" dynamicanimation="fpAnimswapImgFP2" lowsrc="Fall%202006/table-of-con-button-over.gif"></a>
+			<br>
+			<a href="Wailehua%20Gray.zip">
+			<img border="0" id="img2" src="Fall%202006/button2C.gif" height="17" width="144" alt="download printable pdf" fp-style="fp-btn: Metal Rectangle 5; fp-font-size: 9; fp-font-color-hover: #B59475; fp-font-color-press: #FFFFFF; fp-transparent: 1; fp-proportional: 0; fp-orig: 0" fp-title="download printable pdf" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'Fall%202006/button2D.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'Fall%202006/button2C.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img2',/*url*/'Fall%202006/button2E.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img2',/*url*/'Fall%202006/button2D.gif')"></a><br>
+&nbsp;&nbsp;&nbsp;
+		<img border="0" src="hawaii-map.jpg" width="385" height="432"></td>
+		<td valign="top" height="577" width="584">
+		<p align="left">&nbsp;</p>
+		<p align="left">&nbsp;</p>
+		<p align="left">
+		<img border="0" src="Ala-Kahakai-banner.jpg" width="504" height="108"></p>
+		<p align="left">
+		&nbsp;</td>
+	</tr>
+</table>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img border="0" src="Four-Stones-web.jpg" width="360" height="306"></p>
+
+</body>
+
+</html>

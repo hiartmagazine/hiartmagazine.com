@@ -1,0 +1,42 @@
+.tec01 {
+	font-size: 11px;
+	padding: 5px;
+}
+.1p {
+	font-size: 1px;
+	font-style: normal;
+	line-height: 1px;
+	color: 999999;
+	background-color: 999999;
+
+
+
+
+
+
+
+}
+.t10p {
+	font-size: 10px;
+}
+.t11p {
+	font-size: 11px;
+}
+.t12p {
+	font-size: 12px;
+
+}
+.t13p {
+	font-size: 13px;
+}
+.dotline {
+	border: 1px dotted;
+	letter-spacing: 2em;
+	font-size: 1px;
+
+
+}
+.p12 {
+	font-size: 12px;
+	letter-spacing: 1px;
+}
